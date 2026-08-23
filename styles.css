@@ -1,1 +1,55 @@
+: root {
+  --color-primario: #1a1a1a;
+  --color-secundario: #4CAF50;
+  --color-texto: #ffffff;
+  --color-fondo: #f5f5f5
+}
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-fondo);
+}
+
+header {
+  background-color: var(--color-primario);
+  color: var(--color-texto);
+  padding: 20px;
+  text-aling: center;
+}
+
+nav a{
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--color-secundario);
+}
+
+.principal {
+  display: flex;
+  aling-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.principal {
+  width: 180px;
+  border-radius: 10px;
+}
+
+#habilidades ul {
+  display: flex;
+  gap: 20px;
+}
+  
+proyecto img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: var(--color-secundario);
+  color: white;
+}
