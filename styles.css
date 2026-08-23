@@ -1,55 +1,190 @@
-: root {
+:root {
+  --color-fondo: #f4f4f9;
   --color-primario: #1a1a1a;
   --color-secundario: #4CAF50;
-  --color-texto: #ffffff;
-  --color-fondo: #f5f5f5
+  --color-acento: #0078d7;
+  --color-texto: #333;
+  --fuente-principal: 'Segoe UI', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: var(--fuente-principal);
   background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6
 }
 
 header {
-  background-color: var(--color-primario);
-  color: var(--color-texto);
-  padding: 20px;
+  backgroud-color: var(--color-primario);
+  color: white;
   text-aling: center;
+  padding: 2rem 1rem;
 }
 
-nav a{
-  color: var(--color-text);
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
   text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-nav a:hover {
+nav a {
   color: var(--color-secundario);
 }
 
 .principal {
   display: flex;
+  flex-wrap: wrap;
   aling-items: center;
-  gap: 20px;
-  padding: 40px;
+  justify-content: center;
+  padding: 3rem 2rem;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 100px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.principal {
-  width: 180px;
+.principal img {
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+.principal h2 {
+  color: var(--color-acento);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.principal p {
+  max-width: 500px;
+}
+
+section {
+  padding: 2rem;
+  width: 90%;
+  max-width: 1000px;
+  margin: 1rem auto;
+  background-color: white;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: var(--color-secundario);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--color-secundario);
+  display: inline-block;
 }
 
 #habilidades ul {
-  display: flex;
-  gap: 20px;
+  background-color: var(--color--secundario);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
 }
-  
-proyecto img {
-  width: 250px;
+
+#habilidades li:hover {
+  transform: scale(1.05);
+}
+
+.proyecto {
+  margin-bottom: 2rem;
+  text-aling: center;
+}
+
+.proyecto img {
+  width: 300px;
   border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.proyecto a {
+  display: inline-block;
+  background-color; var(--color-acento);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.proyecto a:hover {
+  background-color: var(--color-secundario);
+}
+
+form {
+  display: flex;
+  flex-decoration: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: var(--fuente-principal);
+}
+
+button {
+  background-color: var(--color-secundario);
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: var(--color-secundario);
+  background-color: var(--color-acento);
+}
+
+footer {
+  text-aling: center;
+  background-color: var(--color-primario);
   color: white;
+  padding: 1rem;
+  margin-top: 2rem; 
+}
+
+footer a {
+  color: var(--color-secundario);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--color-acento);
 }
