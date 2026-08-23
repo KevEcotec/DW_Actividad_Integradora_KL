@@ -21,10 +21,10 @@ body {
 }
 
 header {
-  backgroud-color: var(--color-primario);
+  backgroud-color: #fff;
   color: white;
   text-aling: center;
-  padding: 2rem 1rem;
+  padding: 20px;
 }
 
 header h1 {
@@ -39,17 +39,16 @@ header p {
 
 nav ul {
   display: flex;
+  padding: 0;
   justify-content: center;
   list-style: none;
-  margin-top: 1rem;
-  gap: 1.5rem;
+  gap: 20px;
 }
 
 nav a {
-  color: white;
+  color: green;
   text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
+  font-weight: bold;
 }
 
 nav a {
@@ -94,6 +93,13 @@ section {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-aling: center;
 }
 
 section h2 {
