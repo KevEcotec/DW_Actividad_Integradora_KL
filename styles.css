@@ -7,6 +7,15 @@
   --fuente-principal: 'Segoe UI', Arial, sans-serif;
 }
 
+.oculto {
+   display: none;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
