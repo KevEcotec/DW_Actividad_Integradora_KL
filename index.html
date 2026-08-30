@@ -10,9 +10,14 @@
 
   <body>
     <header>
-      <h1>Kevin David Lara Gudiño</h1>
+      <h1 id="titulo-principal">Portafolio Personal</h1>
+      <div id="info-extra" class="oculto">
+        <p>Gracias por visitar mi portafolio</p>
+      </div>
       <p>Estudiante de la Ingeniería en Sistemas Inteligentes</p>
       <p>Desarrollo de Sistemas Web</p>
+
+      <button id="btn-modo">Modo oscuro</button>
 
       <nav>
          <ul>
@@ -63,12 +68,11 @@
 
       <section id="contacto">
         <h2>Contacto</h2>
-        <form>
-          <label>Nombre:</label>
-          <input type="text" required>
-
-          <label>Correo electrónico:</label>
-          <input type="email" required>
+        <form id="form-contacto">
+          <input type="text" id="nombre" placeholder="Nombre">
+          <input type="email" id="correo" placeholder="Correo">
+          <textarea id="mensaje" placeholder="Mensaje"></textarea>
+          <button type="submit">Enviar</button>
                
         </form>
       </section>
