@@ -19,3 +19,7 @@ Este proyecto es un portafolio personal desarrollado con HTML y CSS. Incluye inf
 
 ## GitHub Pages (si lo publicas)
 https: //KevEcotec.github.io/portafolio-kevin/
+
+# Actualización Actividad Integradora 2
+
+Nuevas funciones con JavaScript
