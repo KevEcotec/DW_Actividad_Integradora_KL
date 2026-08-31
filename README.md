@@ -22,4 +22,26 @@ https: //KevEcotec.github.io/portafolio-kevin/
 
 # Actualización Actividad Integradora 2
 
-Nuevas funciones con JavaScript
+## Nuevas funciones con JavaScript:
+
+- Eventos con AddEventListener()
+- Manipulación del DOM
+- Validación del formulario de contacto
+- Modo oscuro
+- Persistencia con localStorage
+- Sección interactiva que aparece al pasar el mouse
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- GitHub
+
+## Cómo ejecutar el proyecto
+
+1. Clonar o descargar el repositorio
+2. Abrir index.html
+3. Probar el modo oscuro
+4. Interactuar con el título
+5. Enviar el formulario
